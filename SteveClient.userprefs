@@ -1,0 +1,29 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SteveClientCore/Model/Request.cs">
+    <Files>
+      <File FileName="SteveClientAndroid/MainActivity.cs" Line="31" Column="57" />
+      <File FileName="SteveClientCore/FileTransfer.cs" Line="10" Column="3" />
+      <File FileName="SteveClientAndroid/ConnectionActivity.cs" Line="17" Column="62" />
+      <File FileName="SteveClientAndroid/Resources/drawable/connection.xml" Line="6" Column="12" />
+      <File FileName="SteveClientAndroid/RequestActivity.cs" Line="17" Column="62" />
+      <File FileName="SteveClientAndroid/Resources/drawable/request.xml" Line="5" Column="52" />
+      <File FileName="SteveClientCore/Model/RequestDefinition.cs" Line="2" Column="56" />
+      <File FileName="SteveClientCore/Model/Request.cs" Line="11" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="SteveClientCore" expanded="True">
+            <Node name="Model" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SteveClientAndroid MonoForAntroid.PreferredDevice="10.1in WXGA (Tablet)" AndroidDeviceId-Debug="emulator-5554" />
+</Properties>
