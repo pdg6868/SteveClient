@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteveClientCore", "SteveClientCore\SteveClientCore.csproj", "{65FFE83F-A1E9-40B2-91AF-3539B4C27546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteveClientAndroid", "SteveClientAndroid\SteveClientAndroid.csproj", "{0EBDCED2-3047-4E9B-8753-602AD442A9E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EBDCED2-3047-4E9B-8753-602AD442A9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBDCED2-3047-4E9B-8753-602AD442A9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBDCED2-3047-4E9B-8753-602AD442A9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBDCED2-3047-4E9B-8753-602AD442A9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FFE83F-A1E9-40B2-91AF-3539B4C27546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FFE83F-A1E9-40B2-91AF-3539B4C27546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FFE83F-A1E9-40B2-91AF-3539B4C27546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FFE83F-A1E9-40B2-91AF-3539B4C27546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SteveClientAndroid\SteveClientAndroid.csproj
+	EndGlobalSection
+EndGlobal
