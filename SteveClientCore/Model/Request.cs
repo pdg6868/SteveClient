@@ -9,6 +9,7 @@ namespace SteveClientCore
 		}
 
 		private int foo;
+		private bool red;
 
 	}
 }
