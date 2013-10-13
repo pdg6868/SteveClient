@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteveClientCore", "SteveCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteveClientAndroid", "SteveClientAndroid\SteveClientAndroid.csproj", "{0EBDCED2-3047-4E9B-8753-602AD442A9E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteveClientAndroidCore", "SteveClientAndroidCore\SteveClientAndroidCore.csproj", "{A320D172-749B-406A-9443-808FB286892F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteveClientTest", "SteveClientTest\SteveClientTest.csproj", "{9EA7CD3E-3E0D-411C-9504-9D32E4D94E12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{65FFE83F-A1E9-40B2-91AF-3539B4C27546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65FFE83F-A1E9-40B2-91AF-3539B4C27546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65FFE83F-A1E9-40B2-91AF-3539B4C27546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA7CD3E-3E0D-411C-9504-9D32E4D94E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA7CD3E-3E0D-411C-9504-9D32E4D94E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA7CD3E-3E0D-411C-9504-9D32E4D94E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA7CD3E-3E0D-411C-9504-9D32E4D94E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A320D172-749B-406A-9443-808FB286892F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A320D172-749B-406A-9443-808FB286892F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A320D172-749B-406A-9443-808FB286892F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A320D172-749B-406A-9443-808FB286892F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = SteveClientAndroid\SteveClientAndroid.csproj
