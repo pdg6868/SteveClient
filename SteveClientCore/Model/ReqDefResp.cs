@@ -2,9 +2,9 @@ using System;
 
 namespace SteveClientCore
 {
-	public class FileTransfer
+	public class ReqDefResp
 	{
-		public FileTransfer ()
+		public ReqDefResp ()
 		{
 		}
 	}

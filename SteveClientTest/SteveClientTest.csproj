@@ -30,10 +30,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\SteveClientAndroidCore\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReqDef.cs" />
+    <Compile Include="TFTPClient.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\SteveClientCore\SteveClientCore.csproj">
+      <Project>{B4A7AAAE-EF52-48BB-ABB8-718FE17E9C7A}</Project>
+      <Name>SteveClientCore</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

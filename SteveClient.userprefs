@@ -1,33 +1,38 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SteveClientAndroidCore/EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SteveClientTest/TFTPClient.cs">
     <Files>
       <File FileName="SteveClientAndroid/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="SteveClientCore/FileTransfer.cs" Line="1" Column="1" />
       <File FileName="SteveClientAndroid/ConnectionActivity.cs" Line="1" Column="1" />
       <File FileName="SteveClientAndroid/Resources/drawable/connection.xml" Line="1" Column="1" />
       <File FileName="SteveClientAndroid/RequestActivity.cs" Line="1" Column="1" />
       <File FileName="SteveClientAndroid/Resources/drawable/request.xml" Line="1" Column="1" />
-      <File FileName="SteveClientCore/Model/RequestDefinition.cs" Line="1" Column="1" />
+      <File FileName="SteveClientTest/Program.cs" Line="12" Column="30" />
+      <File FileName="SteveClientTest/ReqDef.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCommandLine/Program.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/ReqDef.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/ReqResp.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/ReqDefResp.cs" Line="1" Column="1" />
       <File FileName="SteveClientCore/Model/Request.cs" Line="1" Column="1" />
-      <File FileName="SteveClientAndroidCore/EmptyClass.cs" Line="18" Column="5" />
+      <File FileName="SteveClientCore/Model/QueryResult.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/QueryClients.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/QueryPeers.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/Message.cs" Line="1" Column="1" />
+      <File FileName="SteveClientTest/TFTPClient.cs" Line="165" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="SteveClientAndroid" expanded="True" />
-          <Node name="SteveClientAndroidCore" expanded="True">
-            <Node name="References" expanded="True" selected="True" />
-          </Node>
-          <Node name="SteveClientCore" expanded="True">
-            <Node name="References" expanded="True" />
-          </Node>
+          <Node name="SteveClientTest" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Pat/Projects/SteveClient/SteveClientTest/TFTPClient.cs" line="109" column="1" />
+      <Breakpoint file="/Users/Pat/Projects/SteveClient/SteveClientTest/TFTPClient.cs" line="160" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SteveClientAndroid MonoForAntroid.PreferredDevice="10.1in WXGA (Tablet)" AndroidDeviceId-Debug="emulator-5554" />

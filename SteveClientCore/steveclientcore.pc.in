@@ -1,6 +1,0 @@
-Name: SteveClientCore
-Description: SteveClientCore
-Version: 0.1
-
-Requires: 
-Libs: -r:@expanded_libdir@/@PACKAGE@/SteveClientCore.dll

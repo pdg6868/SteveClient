@@ -6,11 +6,11 @@ namespace SteveClientCore
 	{
 		public Request ()
 		{
+			msg = "comp";
 		}
 
-		private int foo;
-		private bool red;
-
+		public String msg { get; set; }
+		public Boolean needsock { get; set; }
 	}
 }
 

@@ -1,4 +1,6 @@
 using System;
+using Newtonsoft.Json;
+using SteveClientCore;
 
 namespace SteveClientTest
 {
@@ -6,7 +8,15 @@ namespace SteveClientTest
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			Request r = new Request ();
+
+
+			/*
+			TFTPClient tftp = new TFTPClient(69, "127.0.0.1");
+			tftp.GetFile ("foo.txt");
+			*/
+
+
 		}
 	}
 }
