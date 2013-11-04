@@ -7,13 +7,14 @@ namespace SteveClientCore
 		public ReqResp ()
 		{
 			msg = "comp";
-			id = "";
+			cid = "";
+			port = 0;
 		}
 
-		//{"msg":"comp","cid":string()}
-
+		//{"msg":"comp","cid":string(),"port":integer()}
 		public String msg { get; set; }
-		public String id { get; set; }
+		public String cid { get; set; }
+		public int port { get; set; }
 	}
 }
 

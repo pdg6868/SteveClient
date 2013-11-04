@@ -61,8 +61,6 @@ namespace SteveClientTest
 				}
 				else if (echo[1] == (byte)Opcodes.DATA)
 				{
-
-
 					int port = endpoint.Port;
 					int blockNum = echo [3];
 
@@ -70,6 +68,7 @@ namespace SteveClientTest
 					stream.Write (echo, 4, echo.Length - 4);
 
 					if (echo.Length < 516) {
+						//Console.WriteLine ("Length: " + echo.Length);
 						if (echo.Length == 0 && blockNum == 1) {
 							File.Delete (fName);
 						}
@@ -110,7 +109,7 @@ namespace SteveClientTest
 					}
 
 					// we are done
-					if (data.Length < 516) {
+					if (data.Length < 512) {
 						break;
 					}
 				}

@@ -6,9 +6,11 @@ namespace SteveClientCore
 	{
 		public QueryResult ()
 		{
+			msg = "qry";
 		}
 
 		//{"msg":"qry","cnt":query()}
+		public String msg { get; set; }
 
 
 	}

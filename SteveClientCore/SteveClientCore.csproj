@@ -45,7 +45,6 @@
     <Compile Include="Model\QueryResult.cs" />
     <Compile Include="Model\QueryClients.cs" />
     <Compile Include="Model\QueryPeers.cs" />
-    <Compile Include="Model\Message.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>

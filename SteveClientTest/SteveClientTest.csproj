@@ -33,11 +33,11 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\SteveClientAndroidCore\bin\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReqDef.cs" />
     <Compile Include="TFTPClient.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -6,7 +6,12 @@ namespace SteveClientCore
 	{
 		public QueryPeers ()
 		{
+			msg = "qry";
+			cnt = "peers";
 		}
+
+		public String msg { get; set; }
+		public String cnt { get; set; }
 	}
 }
 

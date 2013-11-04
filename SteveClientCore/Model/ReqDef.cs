@@ -7,11 +7,11 @@ namespace SteveClientCore
 		public ReqDef ()
 		{
 			msg = "reqdef";
-			id = "";
+			//id = "";
 		}
 
 		public String msg { get; set; }
-		public String id {get;set;}
+		//public String id {get; set; }
 	}
 }
 
