@@ -2,21 +2,29 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SteveClientTest/Program.cs">
     <Files>
-      <File FileName="SteveClientTest/TFTPClient.cs" Line="98" Column="1" />
-      <File FileName="SteveClientCore/Model/ReqDefResp.cs" Line="14" Column="5" />
-      <File FileName="SteveClientCore/Model/ReqDef.cs" Line="10" Column="6" />
-      <File FileName="SteveClientCore/Model/ReqResp.cs" Line="1" Column="1" />
-      <File FileName="SteveClientCore/Model/Request.cs" Line="12" Column="29" />
+      <File FileName="SteveClientTest/TFTPClient.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/Request.cs" Line="1" Column="1" />
       <File FileName="SteveClientCore/Model/QueryResult.cs" Line="1" Column="1" />
       <File FileName="SteveClientCore/Model/QueryPeers.cs" Line="1" Column="1" />
       <File FileName="SteveClientCore/Model/QueryClients.cs" Line="1" Column="1" />
-      <File FileName="SteveClientTest/Program.cs" Line="63" Column="36" />
-      <File FileName="../../Downloads/Project1/LogClient.cs" Line="1" Column="1" />
-      <File FileName="../../Downloads/Project1/LogServer.cs" Line="1" Column="1" />
+      <File FileName="SteveClientTest/Program.cs" Line="77" Column="1" />
+      <File FileName="SteveClientAndroid/Resources/drawable/request.xml" Line="1" Column="1" />
+      <File FileName="SteveClientAndroid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/ReqResp.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/ReqDefResp.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/RequestCnt.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/ReqDef.cs" Line="1" Column="1" />
+      <File FileName="SteveClientCore/Model/QueryCnt.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
+          <Node name="SteveClientAndroid" expanded="True">
+            <Node name="Resources" expanded="True">
+              <Node name="drawable" expanded="True" />
+              <Node name="layout" expanded="True" />
+            </Node>
+          </Node>
           <Node name="SteveClientCommandLine" expanded="True" />
           <Node name="SteveClientCore" expanded="True">
             <Node name="Model" expanded="True" />

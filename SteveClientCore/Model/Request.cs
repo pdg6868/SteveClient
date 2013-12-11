@@ -9,19 +9,31 @@ namespace SteveClientCore
 		{
 			msg = "comp";
 			needsock = false;
-			cnt = new List<string>();
+			ttl = 23;
+			cnt = new List<RequestCnt>();
 		}
 
 		public Request(bool socket)
 		{
 			msg = "comp";
 			needsock = socket;
-			cnt = new List<string>();
+			ttl = 2;
+			cnt = new List<RequestCnt>();
+			/*
+				{"name":"task","val":"run"},
+        		{"name":"desire","val":"out"},
+        		{"name":"exec","val":"python"} 
+			 */
+			cnt.Add (new RequestCnt ("task", new List<String>(){"run"}));
+			cnt.Add (new RequestCnt ("desire", new List<String>(){"all"}));
+			cnt.Add (new RequestCnt ("exec", new List<String>(){"python"}));
+			//cnt.Add (new RequestCnt ("os", new List<String>(){"osx", "linux"}));
 		}
 
 		public String msg { get; set; }
 		public Boolean needsock { get; set; }
-		public List<String> cnt { get; set; }
+		public int ttl { get; set;}
+		public List<RequestCnt> cnt { get; set; }
 	}
 }
 
